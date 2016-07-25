@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3C33441D460A73007761F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C33431D460A73007761F7 /* main.m */; };
+		4C3C33471D460A73007761F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C33461D460A73007761F7 /* AppDelegate.m */; };
+		4C3C334A1D460A73007761F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C33491D460A73007761F7 /* ViewController.m */; };
+		4C3C334D1D460A73007761F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C334B1D460A73007761F7 /* Main.storyboard */; };
+		4C3C334F1D460A73007761F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C334E1D460A73007761F7 /* Assets.xcassets */; };
+		4C3C33521D460A73007761F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C33501D460A73007761F7 /* LaunchScreen.storyboard */; };
+		4C3C335D1D460A73007761F7 /* RTMPReceiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C335C1D460A73007761F7 /* RTMPReceiveTests.m */; };
+		4C3C33681D460A73007761F7 /* RTMPReceiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C33671D460A73007761F7 /* RTMPReceiveUITests.m */; };
+		4C3C33CE1D460C0C007761F7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3C33C91D460C0C007761F7 /* libcrypto.a */; };
+		4C3C33CF1D460C0C007761F7 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3C33CA1D460C0C007761F7 /* librtmp.a */; };
+		4C3C33D01D460C0C007761F7 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3C33CB1D460C0C007761F7 /* libssl.a */; };
+		4C3C33D11D460C0C007761F7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4C3C33CC1D460C0C007761F7 /* LICENSE */; };
+		4C3C33D21D460C0C007761F7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C33CD1D460C0C007761F7 /* README.md */; };
+		4C3C33D61D460CAD007761F7 /* VRPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C33D51D460CAD007761F7 /* VRPlayerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3C33591D460A73007761F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3C33371D460A72007761F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3C333E1D460A72007761F7;
+			remoteInfo = RTMPReceive;
+		};
+		4C3C33641D460A73007761F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3C33371D460A72007761F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3C333E1D460A72007761F7;
+			remoteInfo = RTMPReceive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3C333F1D460A72007761F7 /* RTMPReceive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTMPReceive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3C33431D460A73007761F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C3C33451D460A73007761F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C3C33461D460A73007761F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C3C33481D460A73007761F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C3C33491D460A73007761F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C3C334C1D460A73007761F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3C334E1D460A73007761F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3C33511D460A73007761F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C3C33531D460A73007761F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3C33581D460A73007761F7 /* RTMPReceiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTMPReceiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3C335C1D460A73007761F7 /* RTMPReceiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPReceiveTests.m; sourceTree = "<group>"; };
+		4C3C335E1D460A73007761F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3C33631D460A73007761F7 /* RTMPReceiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTMPReceiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3C33671D460A73007761F7 /* RTMPReceiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPReceiveUITests.m; sourceTree = "<group>"; };
+		4C3C33691D460A73007761F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3C33781D460C0C007761F7 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		4C3C33791D460C0C007761F7 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		4C3C337A1D460C0C007761F7 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		4C3C337B1D460C0C007761F7 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		4C3C337D1D460C0C007761F7 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		4C3C337E1D460C0C007761F7 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		4C3C337F1D460C0C007761F7 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		4C3C33801D460C0C007761F7 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		4C3C33811D460C0C007761F7 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		4C3C33821D460C0C007761F7 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		4C3C33831D460C0C007761F7 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		4C3C33841D460C0C007761F7 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		4C3C33851D460C0C007761F7 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		4C3C33861D460C0C007761F7 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		4C3C33871D460C0C007761F7 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		4C3C33881D460C0C007761F7 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		4C3C33891D460C0C007761F7 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		4C3C338A1D460C0C007761F7 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		4C3C338B1D460C0C007761F7 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		4C3C338C1D460C0C007761F7 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		4C3C338D1D460C0C007761F7 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		4C3C338E1D460C0C007761F7 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		4C3C338F1D460C0C007761F7 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		4C3C33901D460C0C007761F7 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		4C3C33911D460C0C007761F7 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		4C3C33921D460C0C007761F7 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		4C3C33931D460C0C007761F7 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		4C3C33941D460C0C007761F7 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		4C3C33951D460C0C007761F7 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		4C3C33961D460C0C007761F7 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		4C3C33971D460C0C007761F7 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		4C3C33981D460C0C007761F7 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		4C3C33991D460C0C007761F7 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		4C3C339A1D460C0C007761F7 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		4C3C339B1D460C0C007761F7 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		4C3C339C1D460C0C007761F7 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		4C3C339D1D460C0C007761F7 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		4C3C339E1D460C0C007761F7 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		4C3C339F1D460C0C007761F7 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		4C3C33A01D460C0C007761F7 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		4C3C33A11D460C0C007761F7 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		4C3C33A21D460C0C007761F7 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		4C3C33A31D460C0C007761F7 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		4C3C33A41D460C0C007761F7 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		4C3C33A51D460C0C007761F7 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		4C3C33A61D460C0C007761F7 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		4C3C33A71D460C0C007761F7 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		4C3C33A81D460C0C007761F7 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		4C3C33A91D460C0C007761F7 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		4C3C33AA1D460C0C007761F7 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		4C3C33AB1D460C0C007761F7 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		4C3C33AC1D460C0C007761F7 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		4C3C33AD1D460C0C007761F7 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		4C3C33AE1D460C0C007761F7 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		4C3C33AF1D460C0C007761F7 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		4C3C33B01D460C0C007761F7 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		4C3C33B11D460C0C007761F7 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		4C3C33B21D460C0C007761F7 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		4C3C33B31D460C0C007761F7 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		4C3C33B41D460C0C007761F7 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		4C3C33B51D460C0C007761F7 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		4C3C33B61D460C0C007761F7 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		4C3C33B71D460C0C007761F7 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		4C3C33B81D460C0C007761F7 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		4C3C33B91D460C0C007761F7 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		4C3C33BA1D460C0C007761F7 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		4C3C33BB1D460C0C007761F7 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		4C3C33BC1D460C0C007761F7 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		4C3C33BD1D460C0C007761F7 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		4C3C33BE1D460C0C007761F7 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		4C3C33BF1D460C0C007761F7 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		4C3C33C01D460C0C007761F7 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		4C3C33C11D460C0C007761F7 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		4C3C33C21D460C0C007761F7 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		4C3C33C31D460C0C007761F7 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		4C3C33C41D460C0C007761F7 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		4C3C33C51D460C0C007761F7 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		4C3C33C61D460C0C007761F7 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		4C3C33C71D460C0C007761F7 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		4C3C33C91D460C0C007761F7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		4C3C33CA1D460C0C007761F7 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		4C3C33CB1D460C0C007761F7 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		4C3C33CC1D460C0C007761F7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C3C33CD1D460C0C007761F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C3C33D41D460CAD007761F7 /* VRPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPlayerController.h; sourceTree = "<group>"; };
+		4C3C33D51D460CAD007761F7 /* VRPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPlayerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3C333C1D460A72007761F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C33CF1D460C0C007761F7 /* librtmp.a in Frameworks */,
+				4C3C33CE1D460C0C007761F7 /* libcrypto.a in Frameworks */,
+				4C3C33D01D460C0C007761F7 /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C33551D460A73007761F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C33601D460A73007761F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3C33361D460A72007761F7 = {
+			isa = PBXGroup;
+			children = (
+				4C3C33411D460A73007761F7 /* RTMPReceive */,
+				4C3C335B1D460A73007761F7 /* RTMPReceiveTests */,
+				4C3C33661D460A73007761F7 /* RTMPReceiveUITests */,
+				4C3C33401D460A72007761F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3C33401D460A72007761F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C333F1D460A72007761F7 /* RTMPReceive.app */,
+				4C3C33581D460A73007761F7 /* RTMPReceiveTests.xctest */,
+				4C3C33631D460A73007761F7 /* RTMPReceiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3C33411D460A73007761F7 /* RTMPReceive */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33451D460A73007761F7 /* AppDelegate.h */,
+				4C3C33461D460A73007761F7 /* AppDelegate.m */,
+				4C3C33481D460A73007761F7 /* ViewController.h */,
+				4C3C33491D460A73007761F7 /* ViewController.m */,
+				4C3C33D31D460C9B007761F7 /* 0_0 */,
+				4C3C334B1D460A73007761F7 /* Main.storyboard */,
+				4C3C334E1D460A73007761F7 /* Assets.xcassets */,
+				4C3C33501D460A73007761F7 /* LaunchScreen.storyboard */,
+				4C3C33531D460A73007761F7 /* Info.plist */,
+				4C3C33421D460A73007761F7 /* Supporting Files */,
+			);
+			path = RTMPReceive;
+			sourceTree = "<group>";
+		};
+		4C3C33421D460A73007761F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33751D460C0C007761F7 /* librtmp-iOS */,
+				4C3C33431D460A73007761F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C3C335B1D460A73007761F7 /* RTMPReceiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C335C1D460A73007761F7 /* RTMPReceiveTests.m */,
+				4C3C335E1D460A73007761F7 /* Info.plist */,
+			);
+			path = RTMPReceiveTests;
+			sourceTree = "<group>";
+		};
+		4C3C33661D460A73007761F7 /* RTMPReceiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33671D460A73007761F7 /* RTMPReceiveUITests.m */,
+				4C3C33691D460A73007761F7 /* Info.plist */,
+			);
+			path = RTMPReceiveUITests;
+			sourceTree = "<group>";
+		};
+		4C3C33751D460C0C007761F7 /* librtmp-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33761D460C0C007761F7 /* include */,
+				4C3C33C81D460C0C007761F7 /* lib */,
+				4C3C33CC1D460C0C007761F7 /* LICENSE */,
+				4C3C33CD1D460C0C007761F7 /* README.md */,
+			);
+			path = "librtmp-iOS";
+			sourceTree = "<group>";
+		};
+		4C3C33761D460C0C007761F7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33771D460C0C007761F7 /* librtmp */,
+				4C3C337C1D460C0C007761F7 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4C3C33771D460C0C007761F7 /* librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33781D460C0C007761F7 /* amf.h */,
+				4C3C33791D460C0C007761F7 /* http.h */,
+				4C3C337A1D460C0C007761F7 /* log.h */,
+				4C3C337B1D460C0C007761F7 /* rtmp.h */,
+			);
+			path = librtmp;
+			sourceTree = "<group>";
+		};
+		4C3C337C1D460C0C007761F7 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C337D1D460C0C007761F7 /* aes.h */,
+				4C3C337E1D460C0C007761F7 /* asn1.h */,
+				4C3C337F1D460C0C007761F7 /* asn1_mac.h */,
+				4C3C33801D460C0C007761F7 /* asn1t.h */,
+				4C3C33811D460C0C007761F7 /* bio.h */,
+				4C3C33821D460C0C007761F7 /* blowfish.h */,
+				4C3C33831D460C0C007761F7 /* bn.h */,
+				4C3C33841D460C0C007761F7 /* buffer.h */,
+				4C3C33851D460C0C007761F7 /* camellia.h */,
+				4C3C33861D460C0C007761F7 /* cast.h */,
+				4C3C33871D460C0C007761F7 /* cmac.h */,
+				4C3C33881D460C0C007761F7 /* cms.h */,
+				4C3C33891D460C0C007761F7 /* comp.h */,
+				4C3C338A1D460C0C007761F7 /* conf.h */,
+				4C3C338B1D460C0C007761F7 /* conf_api.h */,
+				4C3C338C1D460C0C007761F7 /* crypto.h */,
+				4C3C338D1D460C0C007761F7 /* des.h */,
+				4C3C338E1D460C0C007761F7 /* des_old.h */,
+				4C3C338F1D460C0C007761F7 /* dh.h */,
+				4C3C33901D460C0C007761F7 /* dsa.h */,
+				4C3C33911D460C0C007761F7 /* dso.h */,
+				4C3C33921D460C0C007761F7 /* dtls1.h */,
+				4C3C33931D460C0C007761F7 /* e_os2.h */,
+				4C3C33941D460C0C007761F7 /* ebcdic.h */,
+				4C3C33951D460C0C007761F7 /* ec.h */,
+				4C3C33961D460C0C007761F7 /* ecdh.h */,
+				4C3C33971D460C0C007761F7 /* ecdsa.h */,
+				4C3C33981D460C0C007761F7 /* engine.h */,
+				4C3C33991D460C0C007761F7 /* err.h */,
+				4C3C339A1D460C0C007761F7 /* evp.h */,
+				4C3C339B1D460C0C007761F7 /* hmac.h */,
+				4C3C339C1D460C0C007761F7 /* idea.h */,
+				4C3C339D1D460C0C007761F7 /* krb5_asn.h */,
+				4C3C339E1D460C0C007761F7 /* kssl.h */,
+				4C3C339F1D460C0C007761F7 /* lhash.h */,
+				4C3C33A01D460C0C007761F7 /* md4.h */,
+				4C3C33A11D460C0C007761F7 /* md5.h */,
+				4C3C33A21D460C0C007761F7 /* mdc2.h */,
+				4C3C33A31D460C0C007761F7 /* modes.h */,
+				4C3C33A41D460C0C007761F7 /* obj_mac.h */,
+				4C3C33A51D460C0C007761F7 /* objects.h */,
+				4C3C33A61D460C0C007761F7 /* ocsp.h */,
+				4C3C33A71D460C0C007761F7 /* opensslconf.h */,
+				4C3C33A81D460C0C007761F7 /* opensslv.h */,
+				4C3C33A91D460C0C007761F7 /* ossl_typ.h */,
+				4C3C33AA1D460C0C007761F7 /* pem.h */,
+				4C3C33AB1D460C0C007761F7 /* pem2.h */,
+				4C3C33AC1D460C0C007761F7 /* pkcs12.h */,
+				4C3C33AD1D460C0C007761F7 /* pkcs7.h */,
+				4C3C33AE1D460C0C007761F7 /* pqueue.h */,
+				4C3C33AF1D460C0C007761F7 /* rand.h */,
+				4C3C33B01D460C0C007761F7 /* rc2.h */,
+				4C3C33B11D460C0C007761F7 /* rc4.h */,
+				4C3C33B21D460C0C007761F7 /* ripemd.h */,
+				4C3C33B31D460C0C007761F7 /* rsa.h */,
+				4C3C33B41D460C0C007761F7 /* safestack.h */,
+				4C3C33B51D460C0C007761F7 /* seed.h */,
+				4C3C33B61D460C0C007761F7 /* sha.h */,
+				4C3C33B71D460C0C007761F7 /* srp.h */,
+				4C3C33B81D460C0C007761F7 /* srtp.h */,
+				4C3C33B91D460C0C007761F7 /* ssl.h */,
+				4C3C33BA1D460C0C007761F7 /* ssl2.h */,
+				4C3C33BB1D460C0C007761F7 /* ssl23.h */,
+				4C3C33BC1D460C0C007761F7 /* ssl3.h */,
+				4C3C33BD1D460C0C007761F7 /* stack.h */,
+				4C3C33BE1D460C0C007761F7 /* symhacks.h */,
+				4C3C33BF1D460C0C007761F7 /* tls1.h */,
+				4C3C33C01D460C0C007761F7 /* ts.h */,
+				4C3C33C11D460C0C007761F7 /* txt_db.h */,
+				4C3C33C21D460C0C007761F7 /* ui.h */,
+				4C3C33C31D460C0C007761F7 /* ui_compat.h */,
+				4C3C33C41D460C0C007761F7 /* whrlpool.h */,
+				4C3C33C51D460C0C007761F7 /* x509.h */,
+				4C3C33C61D460C0C007761F7 /* x509_vfy.h */,
+				4C3C33C71D460C0C007761F7 /* x509v3.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		4C3C33C81D460C0C007761F7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33C91D460C0C007761F7 /* libcrypto.a */,
+				4C3C33CA1D460C0C007761F7 /* librtmp.a */,
+				4C3C33CB1D460C0C007761F7 /* libssl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4C3C33D31D460C9B007761F7 /* 0_0 */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C33D41D460CAD007761F7 /* VRPlayerController.h */,
+				4C3C33D51D460CAD007761F7 /* VRPlayerController.m */,
+			);
+			path = 0_0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3C333E1D460A72007761F7 /* RTMPReceive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3C336C1D460A73007761F7 /* Build configuration list for PBXNativeTarget "RTMPReceive" */;
+			buildPhases = (
+				4C3C333B1D460A72007761F7 /* Sources */,
+				4C3C333C1D460A72007761F7 /* Frameworks */,
+				4C3C333D1D460A72007761F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTMPReceive;
+			productName = RTMPReceive;
+			productReference = 4C3C333F1D460A72007761F7 /* RTMPReceive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C3C33571D460A73007761F7 /* RTMPReceiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3C336F1D460A73007761F7 /* Build configuration list for PBXNativeTarget "RTMPReceiveTests" */;
+			buildPhases = (
+				4C3C33541D460A73007761F7 /* Sources */,
+				4C3C33551D460A73007761F7 /* Frameworks */,
+				4C3C33561D460A73007761F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3C335A1D460A73007761F7 /* PBXTargetDependency */,
+			);
+			name = RTMPReceiveTests;
+			productName = RTMPReceiveTests;
+			productReference = 4C3C33581D460A73007761F7 /* RTMPReceiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3C33621D460A73007761F7 /* RTMPReceiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3C33721D460A73007761F7 /* Build configuration list for PBXNativeTarget "RTMPReceiveUITests" */;
+			buildPhases = (
+				4C3C335F1D460A73007761F7 /* Sources */,
+				4C3C33601D460A73007761F7 /* Frameworks */,
+				4C3C33611D460A73007761F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3C33651D460A73007761F7 /* PBXTargetDependency */,
+			);
+			name = RTMPReceiveUITests;
+			productName = RTMPReceiveUITests;
+			productReference = 4C3C33631D460A73007761F7 /* RTMPReceiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3C33371D460A72007761F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gan Tian";
+				TargetAttributes = {
+					4C3C333E1D460A72007761F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4C3C33571D460A73007761F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C3C333E1D460A72007761F7;
+					};
+					4C3C33621D460A73007761F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C3C333E1D460A72007761F7;
+					};
+				};
+			};
+			buildConfigurationList = 4C3C333A1D460A72007761F7 /* Build configuration list for PBXProject "RTMPReceive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3C33361D460A72007761F7;
+			productRefGroup = 4C3C33401D460A72007761F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3C333E1D460A72007761F7 /* RTMPReceive */,
+				4C3C33571D460A73007761F7 /* RTMPReceiveTests */,
+				4C3C33621D460A73007761F7 /* RTMPReceiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3C333D1D460A72007761F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C33521D460A73007761F7 /* LaunchScreen.storyboard in Resources */,
+				4C3C334F1D460A73007761F7 /* Assets.xcassets in Resources */,
+				4C3C33D11D460C0C007761F7 /* LICENSE in Resources */,
+				4C3C334D1D460A73007761F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C33561D460A73007761F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C33611D460A73007761F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3C333B1D460A72007761F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C334A1D460A73007761F7 /* ViewController.m in Sources */,
+				4C3C33471D460A73007761F7 /* AppDelegate.m in Sources */,
+				4C3C33D61D460CAD007761F7 /* VRPlayerController.m in Sources */,
+				4C3C33D21D460C0C007761F7 /* README.md in Sources */,
+				4C3C33441D460A73007761F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C33541D460A73007761F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C335D1D460A73007761F7 /* RTMPReceiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3C335F1D460A73007761F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3C33681D460A73007761F7 /* RTMPReceiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3C335A1D460A73007761F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3C333E1D460A72007761F7 /* RTMPReceive */;
+			targetProxy = 4C3C33591D460A73007761F7 /* PBXContainerItemProxy */;
+		};
+		4C3C33651D460A73007761F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3C333E1D460A72007761F7 /* RTMPReceive */;
+			targetProxy = 4C3C33641D460A73007761F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3C334B1D460A73007761F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3C334C1D460A73007761F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3C33501D460A73007761F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3C33511D460A73007761F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3C336A1D460A73007761F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C3C336B1D460A73007761F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C3C336D1D460A73007761F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTMPReceive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTMPReceive/librtmp-iOS/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.RTMPReceive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C3C336E1D460A73007761F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTMPReceive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTMPReceive/librtmp-iOS/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.RTMPReceive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C3C33701D460A73007761F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RTMPReceiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.RTMPReceiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTMPReceive.app/RTMPReceive";
+			};
+			name = Debug;
+		};
+		4C3C33711D460A73007761F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RTMPReceiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.RTMPReceiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTMPReceive.app/RTMPReceive";
+			};
+			name = Release;
+		};
+		4C3C33731D460A73007761F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RTMPReceiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.RTMPReceiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTMPReceive;
+			};
+			name = Debug;
+		};
+		4C3C33741D460A73007761F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RTMPReceiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3glasses.RTMPReceiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTMPReceive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3C333A1D460A72007761F7 /* Build configuration list for PBXProject "RTMPReceive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C336A1D460A73007761F7 /* Debug */,
+				4C3C336B1D460A73007761F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3C336C1D460A73007761F7 /* Build configuration list for PBXNativeTarget "RTMPReceive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C336D1D460A73007761F7 /* Debug */,
+				4C3C336E1D460A73007761F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C3C336F1D460A73007761F7 /* Build configuration list for PBXNativeTarget "RTMPReceiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C33701D460A73007761F7 /* Debug */,
+				4C3C33711D460A73007761F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C3C33721D460A73007761F7 /* Build configuration list for PBXNativeTarget "RTMPReceiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3C33731D460A73007761F7 /* Debug */,
+				4C3C33741D460A73007761F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3C33371D460A72007761F7 /* Project object */;
+}
